@@ -10,7 +10,7 @@ fun main() {
         while (nomer2 !=0) {
             var tmp = nomer1%nomer2
             nomer1 = nomer2
-            nomer2 = tmp;
+            nomer2 = tmp
         }
-        return nomer1;
+        return nomer1
     }
