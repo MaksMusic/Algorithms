@@ -7,7 +7,7 @@ fun main() {
 
 fun linearSearch(intArray: IntArray, n: Int): Int {
     for (i in intArray.indices) {
-        if (intArray[i] == n) return i
+        if (intArray[i] == n)  return i
     }
     return -1
 }
