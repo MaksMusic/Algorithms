@@ -10,7 +10,7 @@ fun main() {
     println(jumpSearch(arr,15))
 }
 
-
+//временная сложность этого поиска составляет O(sqrt (N)).
 fun jumpSearch(array: IntArray, n: Int): Int {
     var arraySize = array.size
     var jumpStep = Math.sqrt(array.size.toDouble()).toInt()
