@@ -2,7 +2,7 @@ package Palindrome
 
 fun main() {
     //компактнее
-    println(  "ded1".split("").reversed() == "ded1".split(""))
+    println(  "ded".split("").reversed() == "ded".split(""))
     //быстрее работает
     println(isPalindrome("дед"))
 
